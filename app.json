@@ -1,0 +1,33 @@
+{
+	"name": "Delete Account Telegram",
+	"description": "Bot Delete Account TeleGram",
+	"logo": "https://telegra.ph/file/1efa47fc2a6791c1a929e.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"pyrogram"
+	],
+    "env": {
+        "ELHYBA": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": ""
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
